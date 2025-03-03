@@ -1,0 +1,25 @@
+query GetAllTires {
+  tires {
+    id
+    brand
+    model
+    price
+    rating
+    size
+    stock
+    type
+  }
+}
+
+query GetTireById($tireId: Float!) {
+  tire(id: $tireId) {
+    id
+    brand
+    model
+    price
+    rating
+    size
+    stock
+    type
+  }
+}

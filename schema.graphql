@@ -1,0 +1,19 @@
+schema {
+  query: Query
+}
+
+type Query {
+  tire(id: Float!): Tire
+  tires: [Tire!]!
+}
+
+type Tire {
+  brand: String!
+  id: ID!
+  model: String!
+  price: Float!
+  rating: Float!
+  size: String!
+  stock: Int!
+  type: String!
+}
