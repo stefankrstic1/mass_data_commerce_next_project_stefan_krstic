@@ -8,6 +8,7 @@ query GetAllTires {
     size
     stock
     type
+    image
   }
 }
 

@@ -18,7 +18,10 @@
     "paths": {
       "@components/*": ["./src/components/*"],
       "@graphql/*": ["./src/graphql/*"],
-      "@styles/*": ["./src/styles/*"]
+      "@styles/*": ["./src/styles/*"],
+      "@images/*": ["./public/images/*"],
+      "@layout/*": ["./src/layout/*"],
+      "@lib/*": ["./src/lib/*"]
     },
     "plugins": [
       {

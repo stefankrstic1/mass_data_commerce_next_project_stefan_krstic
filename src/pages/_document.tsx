@@ -4,9 +4,10 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body className="antialiased">
+      <body className={`antialiased`}>
         <Main />
         <NextScript />
+        <div id="menu-portal"></div>
       </body>
     </Html>
   );

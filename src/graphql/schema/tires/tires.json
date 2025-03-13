@@ -7,7 +7,8 @@
     "type": "Performance",
     "price": 180.99,
     "rating": 4.8,
-    "stock": 20
+    "stock": 20,
+    "image": "/images/tires/accelera-phi-b-aaa-1.jpg"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "type": "Touring",
     "price": 120.5,
     "rating": 4.5,
-    "stock": 15
+    "stock": 15,
+    "image": "/images/tires/banner_home_page.jpg"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "type": "Performance",
     "price": 195.75,
     "rating": 4.7,
-    "stock": 10
+    "stock": 10,
+    "image": "/images/tires/forceum-octa-b-n889483-aba-3.jpg"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "type": "Ultra High Performance",
     "price": 250.99,
     "rating": 4.9,
-    "stock": 5
+    "stock": 5,
+    "image": "/images/tires/fullway-hp108-b-aba3-4.jpg"
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "type": "All-Season",
     "price": 160.3,
     "rating": 4.6,
-    "stock": 18
+    "stock": 18,
+    "image": "/images/tires/fullway-hp108-b-aba3-5.jpg"
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "type": "Summer",
     "price": 140.99,
     "rating": 4.4,
-    "stock": 12
+    "stock": 12,
+    "image": "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg"
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "type": "Performance",
     "price": 170.45,
     "rating": 4.3,
-    "stock": 8
+    "stock": 8,
+    "image": "/images/tires/goodyear-eagle-sport-2-b-daa-1.jpg"
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "type": "Track",
     "price": 290.99,
     "rating": 5.0,
-    "stock": 4
+    "stock": 4,
+    "image": "/images/tires/kumho-ecsta-ps31-b-aaa-1.jpg"
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "type": "Performance",
     "price": 175.99,
     "rating": 4.7,
-    "stock": 11
+    "stock": 11,
+    "image": "/images/tires/fullway-hp108-b-aba3-4.jpg"
   },
   {
     "id": 10,
@@ -95,8 +104,53 @@
     "model": "Azenis FK510",
     "size": "235/50R18",
     "type": "Ultra High Performance",
-    "price": 165.99,
+    "price": 54.99,
     "rating": 4.5,
-    "stock": 14
+    "stock": 14,
+    "image": "/images/tires/fullway-hp108-b-aba3-4.jpg"
+  },
+  {
+    "id": 11,
+    "brand": "Falken",
+    "model": "Azenis FK510",
+    "size": "235/50R18",
+    "type": "Ultra High Performance",
+    "price": 78.99,
+    "rating": 4.5,
+    "stock": 14,
+    "image": "/images/tires/fullway-hp108-b-aba3-4.jpg"
+  },
+  {
+    "id": 12,
+    "brand": "Falken",
+    "model": "Azenis FK510",
+    "size": "235/50R18",
+    "type": "Ultra High Performance",
+    "price": 677.99,
+    "rating": 4.5,
+    "stock": 14,
+    "image": "/images/tires/kumho-ecsta-ps31-b-aaa-1.jpg"
+  },
+  {
+    "id": 13,
+    "brand": "Falken",
+    "model": "Azenis FK510",
+    "size": "235/50R18",
+    "type": "Ultra High Performance",
+    "price": 123.99,
+    "rating": 4.5,
+    "stock": 14,
+    "image": "/images/tires/fullway-hp108-b-aba3-4.jpg"
+  },
+  {
+    "id": 14,
+    "brand": "Falken",
+    "model": "Azenis FK510",
+    "size": "235/50R18",
+    "type": "Ultra High Performance",
+    "price": 111.99,
+    "rating": 4.5,
+    "stock": 14,
+    "image": "/images/tires/kumho-ecsta-ps31-b-aaa-1.jpg"
   }
 ]

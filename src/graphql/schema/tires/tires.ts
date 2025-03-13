@@ -26,4 +26,7 @@ export class Tire {
 
   @Field(() => Int)
   stock!: number;
+
+  @Field(() => String)
+  image!: string;
 }

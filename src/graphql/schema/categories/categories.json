@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Car Tires",
+    "productCount": 100,
+    "parentCategoryId": null
+  },
+  {
+    "id": 2,
+    "name": "All-Season Tires",
+    "productCount": 40,
+    "parentCategoryId": 1
+  },
+  {
+    "id": 3,
+    "name": "Winter Tires",
+    "productCount": 30,
+    "parentCategoryId": 1
+  },
+  {
+    "id": 4,
+    "name": "Performance Tires",
+    "productCount": 30,
+    "parentCategoryId": 1
+  },
+  {
+    "id": 5,
+    "name": "Truck Tires",
+    "productCount": 80,
+    "parentCategoryId": null
+  },
+  {
+    "id": 6,
+    "name": "All-Terrain Tires",
+    "productCount": 50,
+    "parentCategoryId": 5
+  },
+  {
+    "id": 7,
+    "name": "Mud-Terrain Tires",
+    "productCount": 30,
+    "parentCategoryId": 5
+  },
+  {
+    "id": 8,
+    "name": "Motorcycle Tires",
+    "productCount": 60,
+    "parentCategoryId": null
+  },
+  {
+    "id": 9,
+    "name": "Sport Tires",
+    "productCount": 30,
+    "parentCategoryId": 8
+  },
+  {
+    "id": 10,
+    "name": "Touring Tires",
+    "productCount": 30,
+    "parentCategoryId": 8
+  }
+]

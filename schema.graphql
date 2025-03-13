@@ -2,7 +2,16 @@ schema {
   query: Query
 }
 
+type Category {
+  id: ID!
+  name: String!
+  parentCategoryId: Int
+  productCount: Int!
+}
+
 type Query {
+  mainCategories: [Category!]!
+  subCategories(parentCategoryId: Float!): [Category!]!
   tire(id: Float!): Tire
   tires: [Tire!]!
 }
@@ -10,6 +19,7 @@ type Query {
 type Tire {
   brand: String!
   id: ID!
+  image: String!
   model: String!
   price: Float!
   rating: Float!

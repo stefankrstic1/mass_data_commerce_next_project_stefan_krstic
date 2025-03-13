@@ -1,35 +1,25 @@
-import { request } from "graphql-request";
-import { GetTiresQuery } from "../types/generated";
-import {
-  GetTireByIdDocument,
-  GetTireByIdQuery,
-  GetAllTiresDocument,
-} from "@graphql/generated";
+import { Tire } from "@graphql/generated";
+import Layout from "../layout/Layout";
+import { ReactElement } from "react";
+import HomePage from "@components/pages/HomePage";
+import getAllTires from "@lib/api/tires/getAllTires";
 
 export async function getServerSideProps() {
-  const data = await request<GetTiresQuery>(
-    "http://localhost:3000/api/graphql",
-    GetAllTiresDocument
-  );
-
-  const dataSingleTire = await request<GetTireByIdQuery>(
-    "http://localhost:3000/api/graphql",
-    GetTireByIdDocument,
-    {
-      tireId: 2,
-    }
-  );
+  const data = await getAllTires();
 
   return {
-    props: { tires: data.tires, singleTire: dataSingleTire.tire },
+    props: { tires: data.tires },
   };
 }
 
-export default function Home({ tires, singleTire }) {
-  return (
-    <>
-      <div>{JSON.stringify(tires)}</div>
-      <div>{JSON.stringify(singleTire)}</div>
-    </>
-  );
+type HomeNextPageProps = {
+  tires: Tire[];
+};
+
+export default function HomeNextPage({ tires }: HomeNextPageProps) {
+  return <HomePage tires={tires} />;
 }
+
+HomeNextPage.getLayout = function getLayout(page: ReactElement) {
+  return <Layout>{page}</Layout>;
+};

@@ -1,0 +1,17 @@
+query GetAllMainCategories {
+  mainCategories {
+    id
+    name
+    productCount
+    parentCategoryId
+  }
+}
+
+query GetSubCategories($parentCategoryId: Float!) {
+  subCategories(parentCategoryId: $parentCategoryId) {
+    id
+    name
+    productCount
+    parentCategoryId
+  }
+}
