@@ -10,6 +10,7 @@ const PopularTiresCarousel = ({ tires }: PopularTiresCarouselProps) => {
   const items: CarouselItem[] = tires.map((tire) => {
     const { model, image, id, price } = tire;
     return {
+      id: Number(id),
       image,
       title: model,
       href: `/tires/${id}`,

@@ -16,8 +16,10 @@ const HomePage = ({ tires }: HomePageProps) => {
       <div className="flex justify-center h-56 md:h-80">
         <Image
           src={bannerHomePage}
+          layout="responsive"
           alt="Home page banner"
           className="object-cover"
+          priority
         />
       </div>
       <RebatesCarousel />

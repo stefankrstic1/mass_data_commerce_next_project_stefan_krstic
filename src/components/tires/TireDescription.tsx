@@ -9,7 +9,7 @@ const TireDescription = ({ tire }: TireDescriptionProps) => {
   const { featuresAndBenefits, description } = tire;
 
   return (
-    <div className="flex flex-col gap-2 mx-4 my-4">
+    <div className="flex flex-col gap-2">
       <div className="font-bold text-3xl">Product Description</div>
       <div className="flex flex-col gap-2 font-bold">
         <p>FEATURE AND BENEFITS</p>

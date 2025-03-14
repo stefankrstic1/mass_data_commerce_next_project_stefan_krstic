@@ -12,6 +12,7 @@ import { SwiperSlide, Swiper } from "swiper/react";
 import useSlideCount from "@lib/carousel/useSlideCount";
 
 export type CarouselItem = {
+  id: number;
   image: string;
   title: string;
   showButton?: string;
@@ -34,7 +35,7 @@ const Carousel = ({ items }: CarouselProps) => {
         pagination
         modules={[Pagination]}
       >
-        {items.map(({ title, showButton, href, description, image }) => {
+        {items.map(({ id, title, showButton, href, description, image }) => {
           const content = (
             <Card className={href ? "cursor-pointer" : ""}>
               <CardMedia
@@ -61,7 +62,7 @@ const Carousel = ({ items }: CarouselProps) => {
           );
 
           return (
-            <SwiperSlide key={title}>
+            <SwiperSlide key={id}>
               {href ? (
                 <a href={href} className="cursor-pointer">
                   {content}

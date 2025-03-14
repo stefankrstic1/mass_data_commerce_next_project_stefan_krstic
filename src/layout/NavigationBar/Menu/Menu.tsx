@@ -3,25 +3,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import DirectionsCarIcon from "@mui/icons-material/DirectionsCar";
 import TwoWheelerOutlinedIcon from "@mui/icons-material/TwoWheelerOutlined";
-// import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutlined";
-// import ArrowBackIosNewOutlinedIcon from "@mui/icons-material/ArrowBackIosNewOutlined";
 import LocalShippingOutlinedIcon from "@mui/icons-material/LocalShippingOutlined";
-import {
-  Button,
-  // Collapse,
-  Divider,
-  Drawer,
-  // List,
-  // ListItem,
-  // ListItemButton,
-  // ListItemIcon,
-  // ListItemText,
-} from "@mui/material";
+import { Button, Divider, Drawer } from "@mui/material";
 import { Category } from "@graphql/generated";
 import MenuList from "./MenuList/MenuList";
-// import { useQuery } from "@tanstack/react-query";
-// import { GetAllMainCategoriesDocument } from "@graphql/generated";
-// import request from "graphql-request";
 
 type MenuProps = {
   mainCategories: Category[] | undefined;

@@ -2,8 +2,8 @@ import "reflect-metadata";
 import { Resolver, Query, Arg, FieldResolver, Root } from "type-graphql";
 import tires from "./tires.json";
 import { Tire } from "@graphql/schema/tires/tires";
-import { TireSpecification } from "../tireSpecification/tireSpecification";
-import tireSpecifications from "../tireSpecification/tireSpecifications.json";
+import { TireSpecification } from "../tireSpecifications/tireSpecifications";
+import tireSpecifications from "../tireSpecifications/tireSpecifications.json";
 
 @Resolver(Tire)
 export class TireResolver {

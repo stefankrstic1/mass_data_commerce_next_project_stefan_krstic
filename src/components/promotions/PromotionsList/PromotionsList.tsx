@@ -18,7 +18,7 @@ const PromotionsList = () => {
               <Image
                 src={image.src}
                 alt={title}
-                layout="fill"
+                fill
                 className="object-cover"
               />
               {component && component}

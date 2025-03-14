@@ -11,7 +11,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <NavigationBar />
-      <Box component="main" className="min-h-screen">
+      <Box component="main" className="min-h-screen max-w-[1600px] m-auto">
         {children}
       </Box>
       <Footer />

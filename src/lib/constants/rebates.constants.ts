@@ -10,41 +10,49 @@ import KumhoSaveUpTo160 from "@images/rebates/Kumho-save-up-to-160.jpg";
 
 export const REBATES_LIST: CarouselItem[] = [
   {
+    id: 1,
     image: EfxSaveUpTO80.src,
     title: "EFX Rebates",
     description: "April 1st - June 30th 2024",
   },
   {
+    id: 2,
     image: GladiatorSave120.src,
     title: "Gladiator Rebates",
     description: "April 1st - May 31st 2024",
   },
   {
+    id: 3,
     image: GoodYearSaveUp200.src,
     title: "EFX Rebates",
     description: "April 1st - June 30th 2024",
   },
   {
+    id: 4,
     image: GtRadialSave1UpTo200.src,
     title: "Gladiator Rebates",
     description: "April 1st - June 30th 2024",
   },
   {
+    id: 5,
     image: HankookSave2UpTo200.src,
     title: "EFX Rebates",
     description: "April 1st - June 30th 2024",
   },
   {
+    id: 6,
     image: KellySave40.src,
     title: "Gladiator Rebates",
     description: "April 1st - June 30th 2024",
   },
   {
+    id: 7,
     image: KendaSave200.src,
     title: "EFX Rebates",
     description: "April 1st - June 30th 2024",
   },
   {
+    id: 8,
     image: KumhoSaveUpTo160.src,
     title: "Gladiator Rebates",
     description: "April 1st - June 30th 2024",

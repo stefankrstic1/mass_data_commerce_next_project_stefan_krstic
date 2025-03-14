@@ -1,61 +1,47 @@
-import { Tire } from "@graphql/generated";
-import { Button, MenuItem, Select } from "@mui/material";
-import RemoveIcon from "@mui/icons-material/Remove";
-import AddIcon from "@mui/icons-material/Add";
+import { TireSpecification } from "@graphql/generated";
+import {
+  FIELD_LABELS,
+  FIELDS_ORDER,
+} from "@lib/constants/tireSpecifications.constants";
+
 import React from "react";
 
 type TireSpecificationsProps = {
-  tire: Tire;
+  tireSpecification: TireSpecification | null | undefined;
 };
 
-const TireSpecifications = ({ tire }: TireSpecificationsProps) => {
-  const [count, setCount] = React.useState(1);
-  const { model, brand, price, sizes, oldPrice } = tire;
+const TireSpecifications = ({ tireSpecification }: TireSpecificationsProps) => {
+  if (!tireSpecification) return null;
+
+  const columns: string[][] = [[], []];
+  FIELDS_ORDER.forEach((field, index) => {
+    const columnIndex = Math.floor(index / 10);
+    columns[columnIndex].push(field);
+  });
 
   return (
-    <div className="flex flex-col gap-4 mx-4">
-      <div className="text-3xl">{brand}</div>
-      <div className="text-3xl font-bold">{model}</div>
-      <div>
-        <div className="text-xl font-bold">
-          {`$${price}`}
-          <sub>/each</sub>
-        </div>
-        <div className="line-through text-zinc-400">{oldPrice}</div>
-      </div>
-      <Select>
-        {sizes.map(({ id, size }) => {
-          return (
-            <MenuItem key={id} value={id}>
-              {size}
-            </MenuItem>
-          );
-        })}
-      </Select>
-      <div className="flex gap-2 justify-end">
-        <div className="flex flex-1/3 justify-between border-2 items-center border-zinc-300 rounded-sm">
-          <Button
-            aria-label="reduce"
-            onClick={() => {
-              setCount(Math.max(count - 1, 0));
-            }}
-          >
-            <RemoveIcon fontSize="small" className="text-zinc-500" />
-          </Button>
-          {count}
-          <Button
-            aria-label="increase"
-            onClick={() => {
-              setCount(count + 1);
-            }}
-          >
-            <AddIcon fontSize="small" className="text-zinc-500" />
-          </Button>
-        </div>
-        <Button variant="contained" size="small" className="flex-2/3">
-          {" "}
-          {`$${price} ADD TO CART`}{" "}
-        </Button>
+    <div className="flex flex-col gap-2">
+      <div className="font-bold text-3xl">Tire Specifications</div>
+      <div className="grid grid-cols-1 md:grid-cols-2">
+        {columns.map((column, colIndex) => (
+          <div key={colIndex} className="flex flex-col">
+            {column.map((field, index) => (
+              <div
+                key={field}
+                className={`grid grid-cols-2 p-2 ${
+                  index % 2 !== 0 ? "" : "bg-zinc-200"
+                }`}
+              >
+                <div className="mx-1">{FIELD_LABELS[field]}</div>
+                <div>
+                  {tireSpecification[
+                    field as keyof TireSpecification
+                  ]?.toString()}
+                </div>
+              </div>
+            ))}
+          </div>
+        ))}
       </div>
     </div>
   );

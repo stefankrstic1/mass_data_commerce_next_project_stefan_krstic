@@ -3,7 +3,7 @@ import request from "graphql-request";
 
 const getTire = async (id: string | string[] | undefined) =>
   request<GetTireByIdQuery>(
-    "http://localhost:3000/api/graphql",
+    process.env.NEXT_PUBLIC_API_URL,
     GetTireByIdDocument,
     {
       tireId: Number(id),

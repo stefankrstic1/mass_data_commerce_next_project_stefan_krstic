@@ -29,7 +29,7 @@ const ThumbsGalleryCarousel = ({ images }: ThumbsGalleryCarouselProps) => {
               <div className="h-full w-full">
                 <Image
                   src={value}
-                  layout="fill"
+                  fill
                   alt={value}
                   className="object-contain"
                 />
@@ -51,7 +51,7 @@ const ThumbsGalleryCarousel = ({ images }: ThumbsGalleryCarouselProps) => {
             <SwiperSlide key={index}>
               <div className="h-full w-full">
                 <Image
-                  layout="fill"
+                  fill
                   src={value}
                   alt={value}
                   className="object-contain"

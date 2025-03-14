@@ -6,7 +6,7 @@ import request from "graphql-request";
 
 const fetchSubCategories = (id: string) => async () =>
   request<GetSubCategoriesQuery>(
-    "http://localhost:3000/api/graphql",
+    process.env.NEXT_PUBLIC_API_URL,
     GetSubCategoriesDocument,
     { parentCategoryId: parseInt(id) }
   );

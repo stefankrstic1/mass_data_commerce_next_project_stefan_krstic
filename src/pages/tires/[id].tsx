@@ -1,20 +1,13 @@
 import TirePage from "@components/pages/TirePage";
-import {
-  Tire,
-  GetAllTiresQuery,
-  GetAllTiresDocument,
-} from "@graphql/generated";
-import request from "graphql-request";
+import { Tire } from "@graphql/generated";
 import { GetStaticPaths, GetStaticProps } from "next";
 import React, { ReactElement } from "react";
 import Layout from "../../layout/Layout";
 import getTire from "@lib/api/tires/getTire";
+import getAllTires from "@lib/api/tires/getAllTires";
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const data = await request<GetAllTiresQuery>(
-    "http://localhost:3000/api/graphql",
-    GetAllTiresDocument
-  );
+  const data = await getAllTires();
 
   const paths = data.tires.map((tire: Tire) => ({
     params: { id: tire.id },

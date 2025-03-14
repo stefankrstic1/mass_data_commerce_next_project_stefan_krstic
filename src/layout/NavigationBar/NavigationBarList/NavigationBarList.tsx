@@ -18,10 +18,12 @@ const NavigationBarList = ({
     <>
       {!isLoading && (
         <div className="bg-white flex gap-3 px-6 py-2 justify-between">
-          {mainCategories &&
-            mainCategories.map((category: Category) => (
-              <NavigationBarItem key={category.id} category={category} />
-            ))}
+          <div className="flex gap-4">
+            {mainCategories &&
+              mainCategories.map((category: Category) => (
+                <NavigationBarItem key={category.id} category={category} />
+              ))}
+          </div>
           <div className="flex gap-2">
             <Button
               className="flex gap-2"
