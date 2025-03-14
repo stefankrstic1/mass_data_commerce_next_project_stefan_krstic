@@ -26,14 +26,6 @@ Make sure you have the following installed:
    npm install
    ```
 
-# Environment Variables
-
-Create a .env file in the root of your project and add the following environment variables:
-
-```
-NEXT_PUBLIC_API_URL=http://localhost:3000/api/graphql
-```
-
 # Running the Development Server
 
 Start the development server:
