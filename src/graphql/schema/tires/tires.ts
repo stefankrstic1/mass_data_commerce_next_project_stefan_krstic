@@ -12,14 +12,11 @@ export class Tire {
   @Field(() => String)
   model!: string;
 
-  @Field(() => String)
-  size!: string;
-
-  @Field(() => String)
-  type!: string;
-
   @Field(() => Float)
   price!: number;
+
+  @Field(() => Float)
+  oldPrice!: number;
 
   @Field(() => Float)
   rating!: number;
@@ -29,4 +26,16 @@ export class Tire {
 
   @Field(() => String)
   image!: string;
+
+  @Field(() => [String])
+  galleryImages!: string[];
+
+  @Field(() => String)
+  description!: string;
+
+  @Field(() => [String])
+  featuresAndBenefits!: string[];
+
+  @Field(() => [ID])
+  sizeIds!: number[];
 }

@@ -1,4 +1,4 @@
-import Carousel, { CarouselItem } from "@components/Carousel/Carousel";
+import Carousel, { CarouselItem } from "@components/common/Carousel/Carousel";
 import { Tire } from "@graphql/generated";
 import React from "react";
 

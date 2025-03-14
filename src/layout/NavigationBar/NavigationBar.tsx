@@ -14,7 +14,7 @@ import {
   useTheme,
 } from "@mui/material";
 import NavigationBarList from "@layout/NavigationBar/NavigationBarList/NavigationBarList";
-import Menu from "@components/Menu/Menu";
+import Menu from "@layout/NavigationBar/Menu/Menu";
 import { useQuery } from "@tanstack/react-query";
 import fetchMainCategories from "@lib/api/categories/fetchMainCategories";
 
@@ -26,8 +26,6 @@ const NavigationBar = () => {
 
   const theme = useTheme();
   const isMDSize = useMediaQuery(theme.breakpoints.down("md"));
-
-  console.log(isMDSize);
 
   return (
     <>

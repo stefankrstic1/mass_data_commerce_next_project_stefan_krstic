@@ -1,4 +1,4 @@
-import { CarouselItem } from "@components/Carousel/Carousel";
+import { CarouselItem } from "@components/common/Carousel/Carousel";
 import EfxSaveUpTO80 from "@images/rebates/efx-save-up-to-80.jpg";
 import GladiatorSave120 from "@images/rebates/gladiator-save-120.jpg";
 import GoodYearSaveUp200 from "@images/rebates/goodyear-save-up-200.jpg";

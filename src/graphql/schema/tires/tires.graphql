@@ -4,10 +4,6 @@ query GetAllTires {
     brand
     model
     price
-    rating
-    size
-    stock
-    type
     image
   }
 }
@@ -15,12 +11,18 @@ query GetAllTires {
 query GetTireById($tireId: Float!) {
   tire(id: $tireId) {
     id
-    brand
+    galleryImages
+    description
     model
+    oldPrice
     price
     rating
-    size
     stock
-    type
+    brand
+    featuresAndBenefits
+    sizes {
+      size
+      id
+    }
   }
 }

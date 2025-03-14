@@ -1,6 +1,9 @@
 @import "tailwindcss";
+
 @import "swiper/css";
-@import "swiper/css/pagination";
+@import "swiper/css/free-mode";
+@import "swiper/css/navigation";
+@import "swiper/css/thumbs";
 
 body {
   font-family: Arial, Helvetica, sans-serif;

@@ -13,17 +13,46 @@ type Query {
   mainCategories: [Category!]!
   subCategories(parentCategoryId: Float!): [Category!]!
   tire(id: Float!): Tire
+  tireSpecification(id: Float!): TireSpecification
   tires: [Tire!]!
 }
 
 type Tire {
   brand: String!
+  description: String!
+  featuresAndBenefits: [String!]!
+  galleryImages: [String!]!
   id: ID!
   image: String!
   model: String!
+  oldPrice: Float!
   price: Float!
   rating: Float!
-  size: String!
+  sizeIds: [ID!]!
+  sizes: [TireSpecification!]!
   stock: Int!
+}
+
+type TireSpecification {
+  aspectRatio: String!
+  countryOfOrigin: String!
+  id: ID!
+  loadIndex: String!
+  loadRange: String!
+  mpn: String!
+  overallDiameter: String!
+  performance: String!
+  rebateAvailable: Boolean!
+  rimDiameter: String!
+  roadHazardWarranty: Boolean!
+  runFlat: Boolean!
+  season: String!
+  sectionWidth: String!
+  sidewall: String!
+  size: String!
+  sku: String!
+  speedRating: String!
+  treadDepth: String!
   type: String!
+  utqg: String!
 }

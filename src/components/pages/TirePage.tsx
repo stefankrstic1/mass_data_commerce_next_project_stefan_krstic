@@ -1,3 +1,6 @@
+import TireDescription from "@components/tires/TireDescription";
+import TireSpecifications from "@components/tires/TireSpecifications";
+import TireSummary from "@components/tires/TireSummary";
 import { Tire } from "@graphql/generated";
 import React from "react";
 
@@ -6,8 +9,13 @@ type TirePageProps = {
 };
 
 const TirePage = ({ tire }: TirePageProps) => {
-  console.log(tire);
-  return <div>TirePage</div>;
+  return (
+    <>
+      <TireSummary tire={tire} />
+      <TireSpecifications tire={tire} />
+      <TireDescription tire={tire} />
+    </>
+  );
 };
 
 export default TirePage;

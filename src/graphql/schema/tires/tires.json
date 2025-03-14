@@ -1,156 +1,394 @@
 [
   {
     "id": 1,
+    "sizeIds": [1, 3, 4, 6],
     "brand": "Michelin",
     "model": "Pilot Sport 4S",
-    "size": "225/45R17",
-    "type": "Performance",
     "price": 180.99,
+    "oldPrice": 200.0,
     "rating": 4.8,
     "stock": 20,
-    "image": "/images/tires/accelera-phi-b-aaa-1.jpg"
+    "image": "/images/tires/accelera-phi-b-aaa-1.jpg",
+    "galleryImages": [
+      "/images/tires/banner_home_page.jpg",
+      "/images/tires/forceum-octa-b-n889483-aba-3.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/fullway-hp108-b-aba3-5.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    ],
+    "description": "The Fullway HP108 is a performance and high performance, all season tire manufactured for passenger vehicles and SUVs. This tire has an asymmetric tread pattern, which enhances its dry, wet and winter traction. The durable compound and the ideal tread pattern greatly enhance the model's surface gripping capability in versatile temperatures. The tread design is excellent at channeling water and slush from beneath the footprint with the wide circumferential and smaller lateral tread grooves, which helps prevent hydroplaning in hazardous situations. This makes the tire easier to use in all weather conditions and it promotes exceptional driving safety levels throughout the year. The asymmetric tread design upgrades the controllability as well. The tread pattern and the flat footprint maintain the surface contact at all times, boosting the steering responsiveness and the driving stability. In other words, the better surface contact enhances the steering response time and accuracy to the driver's commands, while the structure is secured against the driving pressure affecting the model. This combination guarantees the driver's constant control over the vehicle, promoting a secure performance. Some sizes of this tire come with a specially designed sidewall to provide protection to the rims of the vehicle. It guards the wheels from accidental curb damage, which in turn, makes the driving experience safer. The HP108 offers a quiet and enjoyable drive. The tire's tread pattern helps lower the road noise heard in the cabin of the vehicle by channeling the airwaves through the footprint. In this manner, the airwaves do not come into contact with the tread elements, which prevents the formation of road and tread pattern noise. As the noise cannot be heard in the vehicle's cabin, it cannot dampen the passengers' driving enjoyment. This provides a quiet and comfortable driving experience. Manufacturers recommend changing tires every 10 years. As long as tires are properly stored before they are sold, the year of their manufacture will not shorten their service life.",
+    "featuresAndBenefits": [
+      "Enhanced controllability",
+      "All weather traction",
+      "High driving comfort levels"
+    ]
   },
   {
     "id": 2,
+    "sizeIds": [2, 3],
     "brand": "Bridgestone",
     "model": "Turanza T005",
-    "size": "205/55R16",
-    "type": "Touring",
     "price": 120.5,
+    "oldPrice": 200.0,
     "rating": 4.5,
     "stock": 15,
-    "image": "/images/tires/banner_home_page.jpg"
+    "image": "/images/tires/banner_home_page.jpg",
+    "galleryImages": [
+      "/images/tires/banner_home_page.jpg",
+      "/images/tires/forceum-octa-b-n889483-aba-3.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/fullway-hp108-b-aba3-5.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    ],
+    "description": "The Fullway HP108 is a performance and high performance, all season tire manufactured for passenger vehicles and SUVs. This tire has an asymmetric tread pattern, which enhances its dry, wet and winter traction. The durable compound and the ideal tread pattern greatly enhance the model's surface gripping capability in versatile temperatures. The tread design is excellent at channeling water and slush from beneath the footprint with the wide circumferential and smaller lateral tread grooves, which helps prevent hydroplaning in hazardous situations. This makes the tire easier to use in all weather conditions and it promotes exceptional driving safety levels throughout the year. The asymmetric tread design upgrades the controllability as well. The tread pattern and the flat footprint maintain the surface contact at all times, boosting the steering responsiveness and the driving stability. In other words, the better surface contact enhances the steering response time and accuracy to the driver's commands, while the structure is secured against the driving pressure affecting the model. This combination guarantees the driver's constant control over the vehicle, promoting a secure performance. Some sizes of this tire come with a specially designed sidewall to provide protection to the rims of the vehicle. It guards the wheels from accidental curb damage, which in turn, makes the driving experience safer. The HP108 offers a quiet and enjoyable drive. The tire's tread pattern helps lower the road noise heard in the cabin of the vehicle by channeling the airwaves through the footprint. In this manner, the airwaves do not come into contact with the tread elements, which prevents the formation of road and tread pattern noise. As the noise cannot be heard in the vehicle's cabin, it cannot dampen the passengers' driving enjoyment. This provides a quiet and comfortable driving experience. Manufacturers recommend changing tires every 10 years. As long as tires are properly stored before they are sold, the year of their manufacture will not shorten their service life.",
+    "featuresAndBenefits": [
+      "Enhanced controllability",
+      "All weather traction",
+      "High driving comfort levels"
+    ]
   },
   {
     "id": 3,
+    "sizeIds": [1, 3, 4, 6],
     "brand": "Goodyear",
     "model": "Eagle F1 Asymmetric 3",
-    "size": "245/40R18",
-    "type": "Performance",
     "price": 195.75,
+    "oldPrice": 200.0,
     "rating": 4.7,
     "stock": 10,
-    "image": "/images/tires/forceum-octa-b-n889483-aba-3.jpg"
+    "image": "/images/tires/forceum-octa-b-n889483-aba-3.jpg",
+    "galleryImages": [
+      "/images/tires/banner_home_page.jpg",
+      "/images/tires/forceum-octa-b-n889483-aba-3.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/fullway-hp108-b-aba3-5.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    ],
+    "description": "The Fullway HP108 is a performance and high performance, all season tire manufactured for passenger vehicles and SUVs. This tire has an asymmetric tread pattern, which enhances its dry, wet and winter traction. The durable compound and the ideal tread pattern greatly enhance the model's surface gripping capability in versatile temperatures. The tread design is excellent at channeling water and slush from beneath the footprint with the wide circumferential and smaller lateral tread grooves, which helps prevent hydroplaning in hazardous situations. This makes the tire easier to use in all weather conditions and it promotes exceptional driving safety levels throughout the year. The asymmetric tread design upgrades the controllability as well. The tread pattern and the flat footprint maintain the surface contact at all times, boosting the steering responsiveness and the driving stability. In other words, the better surface contact enhances the steering response time and accuracy to the driver's commands, while the structure is secured against the driving pressure affecting the model. This combination guarantees the driver's constant control over the vehicle, promoting a secure performance. Some sizes of this tire come with a specially designed sidewall to provide protection to the rims of the vehicle. It guards the wheels from accidental curb damage, which in turn, makes the driving experience safer. The HP108 offers a quiet and enjoyable drive. The tire's tread pattern helps lower the road noise heard in the cabin of the vehicle by channeling the airwaves through the footprint. In this manner, the airwaves do not come into contact with the tread elements, which prevents the formation of road and tread pattern noise. As the noise cannot be heard in the vehicle's cabin, it cannot dampen the passengers' driving enjoyment. This provides a quiet and comfortable driving experience. Manufacturers recommend changing tires every 10 years. As long as tires are properly stored before they are sold, the year of their manufacture will not shorten their service life.",
+    "featuresAndBenefits": [
+      "Enhanced controllability",
+      "All weather traction",
+      "High driving comfort levels"
+    ]
   },
   {
     "id": 4,
+    "sizeIds": [1, 3, 4, 6],
     "brand": "Pirelli",
     "model": "P Zero",
-    "size": "275/35R19",
-    "type": "Ultra High Performance",
     "price": 250.99,
+    "oldPrice": 300.0,
     "rating": 4.9,
     "stock": 5,
-    "image": "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    "image": "/images/tires/fullway-hp108-b-aba3-4.jpg",
+    "galleryImages": [
+      "/images/tires/banner_home_page.jpg",
+      "/images/tires/forceum-octa-b-n889483-aba-3.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/fullway-hp108-b-aba3-5.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    ],
+    "description": "The Fullway HP108 is a performance and high performance, all season tire manufactured for passenger vehicles and SUVs. This tire has an asymmetric tread pattern, which enhances its dry, wet and winter traction. The durable compound and the ideal tread pattern greatly enhance the model's surface gripping capability in versatile temperatures. The tread design is excellent at channeling water and slush from beneath the footprint with the wide circumferential and smaller lateral tread grooves, which helps prevent hydroplaning in hazardous situations. This makes the tire easier to use in all weather conditions and it promotes exceptional driving safety levels throughout the year. The asymmetric tread design upgrades the controllability as well. The tread pattern and the flat footprint maintain the surface contact at all times, boosting the steering responsiveness and the driving stability. In other words, the better surface contact enhances the steering response time and accuracy to the driver's commands, while the structure is secured against the driving pressure affecting the model. This combination guarantees the driver's constant control over the vehicle, promoting a secure performance. Some sizes of this tire come with a specially designed sidewall to provide protection to the rims of the vehicle. It guards the wheels from accidental curb damage, which in turn, makes the driving experience safer. The HP108 offers a quiet and enjoyable drive. The tire's tread pattern helps lower the road noise heard in the cabin of the vehicle by channeling the airwaves through the footprint. In this manner, the airwaves do not come into contact with the tread elements, which prevents the formation of road and tread pattern noise. As the noise cannot be heard in the vehicle's cabin, it cannot dampen the passengers' driving enjoyment. This provides a quiet and comfortable driving experience. Manufacturers recommend changing tires every 10 years. As long as tires are properly stored before they are sold, the year of their manufacture will not shorten their service life.",
+    "featuresAndBenefits": [
+      "Enhanced controllability",
+      "All weather traction",
+      "High driving comfort levels"
+    ]
   },
   {
     "id": 5,
+    "sizeIds": [1, 3, 4, 6],
     "brand": "Continental",
     "model": "ExtremeContact DWS 06",
-    "size": "215/50R17",
-    "type": "All-Season",
     "price": 160.3,
+    "oldPrice": 200.0,
     "rating": 4.6,
     "stock": 18,
-    "image": "/images/tires/fullway-hp108-b-aba3-5.jpg"
+    "image": "/images/tires/fullway-hp108-b-aba3-5.jpg",
+    "galleryImages": [
+      "/images/tires/banner_home_page.jpg",
+      "/images/tires/forceum-octa-b-n889483-aba-3.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/fullway-hp108-b-aba3-5.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    ],
+    "description": "The Fullway HP108 is a performance and high performance, all season tire manufactured for passenger vehicles and SUVs. This tire has an asymmetric tread pattern, which enhances its dry, wet and winter traction. The durable compound and the ideal tread pattern greatly enhance the model's surface gripping capability in versatile temperatures. The tread design is excellent at channeling water and slush from beneath the footprint with the wide circumferential and smaller lateral tread grooves, which helps prevent hydroplaning in hazardous situations. This makes the tire easier to use in all weather conditions and it promotes exceptional driving safety levels throughout the year. The asymmetric tread design upgrades the controllability as well. The tread pattern and the flat footprint maintain the surface contact at all times, boosting the steering responsiveness and the driving stability. In other words, the better surface contact enhances the steering response time and accuracy to the driver's commands, while the structure is secured against the driving pressure affecting the model. This combination guarantees the driver's constant control over the vehicle, promoting a secure performance. Some sizes of this tire come with a specially designed sidewall to provide protection to the rims of the vehicle. It guards the wheels from accidental curb damage, which in turn, makes the driving experience safer. The HP108 offers a quiet and enjoyable drive. The tire's tread pattern helps lower the road noise heard in the cabin of the vehicle by channeling the airwaves through the footprint. In this manner, the airwaves do not come into contact with the tread elements, which prevents the formation of road and tread pattern noise. As the noise cannot be heard in the vehicle's cabin, it cannot dampen the passengers' driving enjoyment. This provides a quiet and comfortable driving experience. Manufacturers recommend changing tires every 10 years. As long as tires are properly stored before they are sold, the year of their manufacture will not shorten their service life.",
+    "featuresAndBenefits": [
+      "Enhanced controllability",
+      "All weather traction",
+      "High driving comfort levels"
+    ]
   },
   {
     "id": 6,
+    "sizeIds": [1, 3, 4, 6],
     "brand": "Hankook",
     "model": "Ventus V12 evo2",
-    "size": "255/35R18",
-    "type": "Summer",
     "price": 140.99,
+    "oldPrice": 200.0,
     "rating": 4.4,
     "stock": 12,
-    "image": "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg"
+    "image": "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+    "galleryImages": [
+      "/images/tires/banner_home_page.jpg",
+      "/images/tires/forceum-octa-b-n889483-aba-3.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/fullway-hp108-b-aba3-5.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    ],
+    "description": "The Fullway HP108 is a performance and high performance, all season tire manufactured for passenger vehicles and SUVs. This tire has an asymmetric tread pattern, which enhances its dry, wet and winter traction. The durable compound and the ideal tread pattern greatly enhance the model's surface gripping capability in versatile temperatures. The tread design is excellent at channeling water and slush from beneath the footprint with the wide circumferential and smaller lateral tread grooves, which helps prevent hydroplaning in hazardous situations. This makes the tire easier to use in all weather conditions and it promotes exceptional driving safety levels throughout the year. The asymmetric tread design upgrades the controllability as well. The tread pattern and the flat footprint maintain the surface contact at all times, boosting the steering responsiveness and the driving stability. In other words, the better surface contact enhances the steering response time and accuracy to the driver's commands, while the structure is secured against the driving pressure affecting the model. This combination guarantees the driver's constant control over the vehicle, promoting a secure performance. Some sizes of this tire come with a specially designed sidewall to provide protection to the rims of the vehicle. It guards the wheels from accidental curb damage, which in turn, makes the driving experience safer. The HP108 offers a quiet and enjoyable drive. The tire's tread pattern helps lower the road noise heard in the cabin of the vehicle by channeling the airwaves through the footprint. In this manner, the airwaves do not come into contact with the tread elements, which prevents the formation of road and tread pattern noise. As the noise cannot be heard in the vehicle's cabin, it cannot dampen the passengers' driving enjoyment. This provides a quiet and comfortable driving experience. Manufacturers recommend changing tires every 10 years. As long as tires are properly stored before they are sold, the year of their manufacture will not shorten their service life.",
+    "featuresAndBenefits": [
+      "Enhanced controllability",
+      "All weather traction",
+      "High driving comfort levels"
+    ]
   },
   {
     "id": 7,
+    "sizeIds": [1, 3, 4, 6],
     "brand": "Toyo",
     "model": "Proxes R1R",
-    "size": "235/45R17",
-    "type": "Performance",
     "price": 170.45,
+    "oldPrice": 200.0,
     "rating": 4.3,
     "stock": 8,
-    "image": "/images/tires/goodyear-eagle-sport-2-b-daa-1.jpg"
+    "image": "/images/tires/goodyear-eagle-sport-2-b-daa-1.jpg",
+    "galleryImages": [
+      "/images/tires/banner_home_page.jpg",
+      "/images/tires/forceum-octa-b-n889483-aba-3.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/fullway-hp108-b-aba3-5.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    ],
+    "description": "The Fullway HP108 is a performance and high performance, all season tire manufactured for passenger vehicles and SUVs. This tire has an asymmetric tread pattern, which enhances its dry, wet and winter traction. The durable compound and the ideal tread pattern greatly enhance the model's surface gripping capability in versatile temperatures. The tread design is excellent at channeling water and slush from beneath the footprint with the wide circumferential and smaller lateral tread grooves, which helps prevent hydroplaning in hazardous situations. This makes the tire easier to use in all weather conditions and it promotes exceptional driving safety levels throughout the year. The asymmetric tread design upgrades the controllability as well. The tread pattern and the flat footprint maintain the surface contact at all times, boosting the steering responsiveness and the driving stability. In other words, the better surface contact enhances the steering response time and accuracy to the driver's commands, while the structure is secured against the driving pressure affecting the model. This combination guarantees the driver's constant control over the vehicle, promoting a secure performance. Some sizes of this tire come with a specially designed sidewall to provide protection to the rims of the vehicle. It guards the wheels from accidental curb damage, which in turn, makes the driving experience safer. The HP108 offers a quiet and enjoyable drive. The tire's tread pattern helps lower the road noise heard in the cabin of the vehicle by channeling the airwaves through the footprint. In this manner, the airwaves do not come into contact with the tread elements, which prevents the formation of road and tread pattern noise. As the noise cannot be heard in the vehicle's cabin, it cannot dampen the passengers' driving enjoyment. This provides a quiet and comfortable driving experience. Manufacturers recommend changing tires every 10 years. As long as tires are properly stored before they are sold, the year of their manufacture will not shorten their service life.",
+    "featuresAndBenefits": [
+      "Enhanced controllability",
+      "All weather traction",
+      "High driving comfort levels"
+    ]
   },
   {
     "id": 8,
+    "sizeIds": [1, 3, 4, 6],
     "brand": "Yokohama",
     "model": "Advan Neova AD08R",
-    "size": "265/30R19",
-    "type": "Track",
     "price": 290.99,
+    "oldPrice": 300.0,
     "rating": 5.0,
     "stock": 4,
-    "image": "/images/tires/kumho-ecsta-ps31-b-aaa-1.jpg"
+    "image": "/images/tires/kumho-ecsta-ps31-b-aaa-1.jpg",
+    "galleryImages": [
+      "/images/tires/banner_home_page.jpg",
+      "/images/tires/forceum-octa-b-n889483-aba-3.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/fullway-hp108-b-aba3-5.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    ],
+    "description": "The Fullway HP108 is a performance and high performance, all season tire manufactured for passenger vehicles and SUVs. This tire has an asymmetric tread pattern, which enhances its dry, wet and winter traction. The durable compound and the ideal tread pattern greatly enhance the model's surface gripping capability in versatile temperatures. The tread design is excellent at channeling water and slush from beneath the footprint with the wide circumferential and smaller lateral tread grooves, which helps prevent hydroplaning in hazardous situations. This makes the tire easier to use in all weather conditions and it promotes exceptional driving safety levels throughout the year. The asymmetric tread design upgrades the controllability as well. The tread pattern and the flat footprint maintain the surface contact at all times, boosting the steering responsiveness and the driving stability. In other words, the better surface contact enhances the steering response time and accuracy to the driver's commands, while the structure is secured against the driving pressure affecting the model. This combination guarantees the driver's constant control over the vehicle, promoting a secure performance. Some sizes of this tire come with a specially designed sidewall to provide protection to the rims of the vehicle. It guards the wheels from accidental curb damage, which in turn, makes the driving experience safer. The HP108 offers a quiet and enjoyable drive. The tire's tread pattern helps lower the road noise heard in the cabin of the vehicle by channeling the airwaves through the footprint. In this manner, the airwaves do not come into contact with the tread elements, which prevents the formation of road and tread pattern noise. As the noise cannot be heard in the vehicle's cabin, it cannot dampen the passengers' driving enjoyment. This provides a quiet and comfortable driving experience. Manufacturers recommend changing tires every 10 years. As long as tires are properly stored before they are sold, the year of their manufacture will not shorten their service life.",
+    "featuresAndBenefits": [
+      "Enhanced controllability",
+      "All weather traction",
+      "High driving comfort levels"
+    ]
   },
   {
     "id": 9,
+    "sizeIds": [1, 3, 4, 6],
     "brand": "Dunlop",
     "model": "SP Sport Maxx RT2",
-    "size": "225/40R18",
-    "type": "Performance",
     "price": 175.99,
+    "oldPrice": 200.0,
     "rating": 4.7,
     "stock": 11,
-    "image": "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    "image": "/images/tires/fullway-hp108-b-aba3-4.jpg",
+    "galleryImages": [
+      "/images/tires/banner_home_page.jpg",
+      "/images/tires/forceum-octa-b-n889483-aba-3.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/fullway-hp108-b-aba3-5.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    ],
+    "description": "The Fullway HP108 is a performance and high performance, all season tire manufactured for passenger vehicles and SUVs. This tire has an asymmetric tread pattern, which enhances its dry, wet and winter traction. The durable compound and the ideal tread pattern greatly enhance the model's surface gripping capability in versatile temperatures. The tread design is excellent at channeling water and slush from beneath the footprint with the wide circumferential and smaller lateral tread grooves, which helps prevent hydroplaning in hazardous situations. This makes the tire easier to use in all weather conditions and it promotes exceptional driving safety levels throughout the year. The asymmetric tread design upgrades the controllability as well. The tread pattern and the flat footprint maintain the surface contact at all times, boosting the steering responsiveness and the driving stability. In other words, the better surface contact enhances the steering response time and accuracy to the driver's commands, while the structure is secured against the driving pressure affecting the model. This combination guarantees the driver's constant control over the vehicle, promoting a secure performance. Some sizes of this tire come with a specially designed sidewall to provide protection to the rims of the vehicle. It guards the wheels from accidental curb damage, which in turn, makes the driving experience safer. The HP108 offers a quiet and enjoyable drive. The tire's tread pattern helps lower the road noise heard in the cabin of the vehicle by channeling the airwaves through the footprint. In this manner, the airwaves do not come into contact with the tread elements, which prevents the formation of road and tread pattern noise. As the noise cannot be heard in the vehicle's cabin, it cannot dampen the passengers' driving enjoyment. This provides a quiet and comfortable driving experience. Manufacturers recommend changing tires every 10 years. As long as tires are properly stored before they are sold, the year of their manufacture will not shorten their service life.",
+    "featuresAndBenefits": [
+      "Enhanced controllability",
+      "All weather traction",
+      "High driving comfort levels"
+    ]
   },
   {
     "id": 10,
+    "sizeIds": [1, 3, 4, 6],
     "brand": "Falken",
     "model": "Azenis FK510",
-    "size": "235/50R18",
-    "type": "Ultra High Performance",
     "price": 54.99,
+    "oldPrice": 200.0,
     "rating": 4.5,
     "stock": 14,
-    "image": "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    "image": "/images/tires/fullway-hp108-b-aba3-4.jpg",
+    "galleryImages": [
+      "/images/tires/banner_home_page.jpg",
+      "/images/tires/forceum-octa-b-n889483-aba-3.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/fullway-hp108-b-aba3-5.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    ],
+    "description": "The Fullway HP108 is a performance and high performance, all season tire manufactured for passenger vehicles and SUVs. This tire has an asymmetric tread pattern, which enhances its dry, wet and winter traction. The durable compound and the ideal tread pattern greatly enhance the model's surface gripping capability in versatile temperatures. The tread design is excellent at channeling water and slush from beneath the footprint with the wide circumferential and smaller lateral tread grooves, which helps prevent hydroplaning in hazardous situations. This makes the tire easier to use in all weather conditions and it promotes exceptional driving safety levels throughout the year. The asymmetric tread design upgrades the controllability as well. The tread pattern and the flat footprint maintain the surface contact at all times, boosting the steering responsiveness and the driving stability. In other words, the better surface contact enhances the steering response time and accuracy to the driver's commands, while the structure is secured against the driving pressure affecting the model. This combination guarantees the driver's constant control over the vehicle, promoting a secure performance. Some sizes of this tire come with a specially designed sidewall to provide protection to the rims of the vehicle. It guards the wheels from accidental curb damage, which in turn, makes the driving experience safer. The HP108 offers a quiet and enjoyable drive. The tire's tread pattern helps lower the road noise heard in the cabin of the vehicle by channeling the airwaves through the footprint. In this manner, the airwaves do not come into contact with the tread elements, which prevents the formation of road and tread pattern noise. As the noise cannot be heard in the vehicle's cabin, it cannot dampen the passengers' driving enjoyment. This provides a quiet and comfortable driving experience. Manufacturers recommend changing tires every 10 years. As long as tires are properly stored before they are sold, the year of their manufacture will not shorten their service life.",
+    "featuresAndBenefits": [
+      "Enhanced controllability",
+      "All weather traction",
+      "High driving comfort levels"
+    ]
   },
   {
     "id": 11,
+    "sizeIds": [1, 3, 4, 6],
     "brand": "Falken",
     "model": "Azenis FK510",
-    "size": "235/50R18",
-    "type": "Ultra High Performance",
     "price": 78.99,
+    "oldPrice": 200.0,
     "rating": 4.5,
     "stock": 14,
-    "image": "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    "image": "/images/tires/fullway-hp108-b-aba3-4.jpg",
+    "galleryImages": [
+      "/images/tires/banner_home_page.jpg",
+      "/images/tires/forceum-octa-b-n889483-aba-3.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/fullway-hp108-b-aba3-5.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    ],
+    "description": "The Fullway HP108 is a performance and high performance, all season tire manufactured for passenger vehicles and SUVs. This tire has an asymmetric tread pattern, which enhances its dry, wet and winter traction. The durable compound and the ideal tread pattern greatly enhance the model's surface gripping capability in versatile temperatures. The tread design is excellent at channeling water and slush from beneath the footprint with the wide circumferential and smaller lateral tread grooves, which helps prevent hydroplaning in hazardous situations. This makes the tire easier to use in all weather conditions and it promotes exceptional driving safety levels throughout the year. The asymmetric tread design upgrades the controllability as well. The tread pattern and the flat footprint maintain the surface contact at all times, boosting the steering responsiveness and the driving stability. In other words, the better surface contact enhances the steering response time and accuracy to the driver's commands, while the structure is secured against the driving pressure affecting the model. This combination guarantees the driver's constant control over the vehicle, promoting a secure performance. Some sizes of this tire come with a specially designed sidewall to provide protection to the rims of the vehicle. It guards the wheels from accidental curb damage, which in turn, makes the driving experience safer. The HP108 offers a quiet and enjoyable drive. The tire's tread pattern helps lower the road noise heard in the cabin of the vehicle by channeling the airwaves through the footprint. In this manner, the airwaves do not come into contact with the tread elements, which prevents the formation of road and tread pattern noise. As the noise cannot be heard in the vehicle's cabin, it cannot dampen the passengers' driving enjoyment. This provides a quiet and comfortable driving experience. Manufacturers recommend changing tires every 10 years. As long as tires are properly stored before they are sold, the year of their manufacture will not shorten their service life.",
+    "featuresAndBenefits": [
+      "Enhanced controllability",
+      "All weather traction",
+      "High driving comfort levels"
+    ]
   },
   {
     "id": 12,
+    "sizeIds": [1, 3, 4, 6],
     "brand": "Falken",
     "model": "Azenis FK510",
-    "size": "235/50R18",
-    "type": "Ultra High Performance",
     "price": 677.99,
+    "oldPrice": 1100.0,
     "rating": 4.5,
     "stock": 14,
-    "image": "/images/tires/kumho-ecsta-ps31-b-aaa-1.jpg"
+    "image": "/images/tires/kumho-ecsta-ps31-b-aaa-1.jpg",
+    "galleryImages": [
+      "/images/tires/banner_home_page.jpg",
+      "/images/tires/forceum-octa-b-n889483-aba-3.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/fullway-hp108-b-aba3-5.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    ],
+    "description": "The Fullway HP108 is a performance and high performance, all season tire manufactured for passenger vehicles and SUVs. This tire has an asymmetric tread pattern, which enhances its dry, wet and winter traction. The durable compound and the ideal tread pattern greatly enhance the model's surface gripping capability in versatile temperatures. The tread design is excellent at channeling water and slush from beneath the footprint with the wide circumferential and smaller lateral tread grooves, which helps prevent hydroplaning in hazardous situations. This makes the tire easier to use in all weather conditions and it promotes exceptional driving safety levels throughout the year. The asymmetric tread design upgrades the controllability as well. The tread pattern and the flat footprint maintain the surface contact at all times, boosting the steering responsiveness and the driving stability. In other words, the better surface contact enhances the steering response time and accuracy to the driver's commands, while the structure is secured against the driving pressure affecting the model. This combination guarantees the driver's constant control over the vehicle, promoting a secure performance. Some sizes of this tire come with a specially designed sidewall to provide protection to the rims of the vehicle. It guards the wheels from accidental curb damage, which in turn, makes the driving experience safer. The HP108 offers a quiet and enjoyable drive. The tire's tread pattern helps lower the road noise heard in the cabin of the vehicle by channeling the airwaves through the footprint. In this manner, the airwaves do not come into contact with the tread elements, which prevents the formation of road and tread pattern noise. As the noise cannot be heard in the vehicle's cabin, it cannot dampen the passengers' driving enjoyment. This provides a quiet and comfortable driving experience. Manufacturers recommend changing tires every 10 years. As long as tires are properly stored before they are sold, the year of their manufacture will not shorten their service life.",
+    "featuresAndBenefits": [
+      "Enhanced controllability",
+      "All weather traction",
+      "High driving comfort levels"
+    ]
   },
   {
     "id": 13,
+    "sizeIds": [1, 3, 4, 6],
     "brand": "Falken",
     "model": "Azenis FK510",
-    "size": "235/50R18",
-    "type": "Ultra High Performance",
     "price": 123.99,
+    "oldPrice": 200.0,
     "rating": 4.5,
     "stock": 14,
-    "image": "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    "image": "/images/tires/fullway-hp108-b-aba3-4.jpg",
+    "galleryImages": [
+      "/images/tires/banner_home_page.jpg",
+      "/images/tires/forceum-octa-b-n889483-aba-3.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/fullway-hp108-b-aba3-5.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    ],
+    "description": "The Fullway HP108 is a performance and high performance, all season tire manufactured for passenger vehicles and SUVs. This tire has an asymmetric tread pattern, which enhances its dry, wet and winter traction. The durable compound and the ideal tread pattern greatly enhance the model's surface gripping capability in versatile temperatures. The tread design is excellent at channeling water and slush from beneath the footprint with the wide circumferential and smaller lateral tread grooves, which helps prevent hydroplaning in hazardous situations. This makes the tire easier to use in all weather conditions and it promotes exceptional driving safety levels throughout the year. The asymmetric tread design upgrades the controllability as well. The tread pattern and the flat footprint maintain the surface contact at all times, boosting the steering responsiveness and the driving stability. In other words, the better surface contact enhances the steering response time and accuracy to the driver's commands, while the structure is secured against the driving pressure affecting the model. This combination guarantees the driver's constant control over the vehicle, promoting a secure performance. Some sizes of this tire come with a specially designed sidewall to provide protection to the rims of the vehicle. It guards the wheels from accidental curb damage, which in turn, makes the driving experience safer. The HP108 offers a quiet and enjoyable drive. The tire's tread pattern helps lower the road noise heard in the cabin of the vehicle by channeling the airwaves through the footprint. In this manner, the airwaves do not come into contact with the tread elements, which prevents the formation of road and tread pattern noise. As the noise cannot be heard in the vehicle's cabin, it cannot dampen the passengers' driving enjoyment. This provides a quiet and comfortable driving experience. Manufacturers recommend changing tires every 10 years. As long as tires are properly stored before they are sold, the year of their manufacture will not shorten their service life.",
+    "featuresAndBenefits": [
+      "Enhanced controllability",
+      "All weather traction",
+      "High driving comfort levels"
+    ]
   },
   {
     "id": 14,
+    "sizeIds": [1, 3, 4, 6],
     "brand": "Falken",
     "model": "Azenis FK510",
-    "size": "235/50R18",
-    "type": "Ultra High Performance",
     "price": 111.99,
+    "oldPrice": 200.0,
     "rating": 4.5,
     "stock": 14,
-    "image": "/images/tires/kumho-ecsta-ps31-b-aaa-1.jpg"
+    "image": "/images/tires/kumho-ecsta-ps31-b-aaa-1.jpg",
+    "galleryImages": [
+      "/images/tires/banner_home_page.jpg",
+      "/images/tires/forceum-octa-b-n889483-aba-3.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/fullway-hp108-b-aba3-5.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg",
+      "/images/tires/goodyear-assurance-comfortdrive-b-aaa-1.jpg",
+      "/images/tires/fullway-hp108-b-aba3-4.jpg"
+    ],
+    "description": "The Fullway HP108 is a performance and high performance, all season tire manufactured for passenger vehicles and SUVs. This tire has an asymmetric tread pattern, which enhances its dry, wet and winter traction. The durable compound and the ideal tread pattern greatly enhance the model's surface gripping capability in versatile temperatures. The tread design is excellent at channeling water and slush from beneath the footprint with the wide circumferential and smaller lateral tread grooves, which helps prevent hydroplaning in hazardous situations. This makes the tire easier to use in all weather conditions and it promotes exceptional driving safety levels throughout the year. The asymmetric tread design upgrades the controllability as well. The tread pattern and the flat footprint maintain the surface contact at all times, boosting the steering responsiveness and the driving stability. In other words, the better surface contact enhances the steering response time and accuracy to the driver's commands, while the structure is secured against the driving pressure affecting the model. This combination guarantees the driver's constant control over the vehicle, promoting a secure performance. Some sizes of this tire come with a specially designed sidewall to provide protection to the rims of the vehicle. It guards the wheels from accidental curb damage, which in turn, makes the driving experience safer. The HP108 offers a quiet and enjoyable drive. The tire's tread pattern helps lower the road noise heard in the cabin of the vehicle by channeling the airwaves through the footprint. In this manner, the airwaves do not come into contact with the tread elements, which prevents the formation of road and tread pattern noise. As the noise cannot be heard in the vehicle's cabin, it cannot dampen the passengers' driving enjoyment. This provides a quiet and comfortable driving experience. Manufacturers recommend changing tires every 10 years. As long as tires are properly stored before they are sold, the year of their manufacture will not shorten their service life.",
+    "featuresAndBenefits": [
+      "Enhanced controllability",
+      "All weather traction",
+      "High driving comfort levels"
+    ]
   }
 ]

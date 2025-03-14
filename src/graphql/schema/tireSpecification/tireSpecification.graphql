@@ -1,0 +1,25 @@
+query GetTireSpecificationById($tireSpecificationId: Float!) {
+  tireSpecification(id: $tireSpecificationId) {
+    aspectRatio
+    countryOfOrigin
+    id
+    loadIndex
+    loadRange
+    mpn
+    overallDiameter
+    performance
+    rebateAvailable
+    rimDiameter
+    roadHazardWarranty
+    runFlat
+    season
+    sectionWidth
+    sidewall
+    size
+    sku
+    speedRating
+    treadDepth
+    type
+    utqg
+  }
+}
