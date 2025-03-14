@@ -18,92 +18,83 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/your-username/mass_data_commerce_next_project_stefan_krstic.git
    cd mass_data_commerce_next_project_stefan_krstic
-
    ```
 
 2. Install dependencies:
 
-npm install
+   ```
+   npm install
+   ```
 
-# or
+# Environment Variables
 
-yarn install
-
-Environment Variables
 Create a .env file in the root of your project and add the following environment variables:
 
+```
 NEXT_PUBLIC_API_URL=http://localhost:3000/api/graphql
+```
 
-Running the Development Server
+# Running the Development Server
+
 Start the development server:
 
+```
 npm run dev
-
-# or
-
-yarn dev
-
-# or
-
-pnpm dev
-
-# or
-
-bun dev
+```
 
 Open http://localhost:3000 with your browser to see the result.
 
-Building for Production
+# Building for Production
+
 To create an optimized production build:
 
+```
 npm run build
+```
 
-# or
+# Starting the Production Server
 
-yarn build
-
-Starting the Production Server
 After building the project, you can start the production server:
 
+```
 npm run start
+```
 
-# or
+# Project Structure
 
-yarn start
+- components/: Contains React components used throughout the project.
+- graphql/: Contains GraphQL queries, mutations, and generated types.
+- lib/: Contains utility functions and API calls.
+- pages/: Contains Next.js pages.
+- public/: Contains static assets such as images.
+- styles/: Contains global styles and TailwindCSS configuration.
 
-Project Structure
-components/: Contains React components used throughout the project.
-graphql/: Contains GraphQL queries, mutations, and generated types.
-lib/: Contains utility functions and API calls.
-pages/: Contains Next.js pages.
-public/: Contains static assets such as images.
-styles/: Contains global styles and TailwindCSS configuration.
-Technologies Used
-Next.js: A React framework for server-side rendering and static site generation.
-GraphQL: A query language for your API.
-TailwindCSS: A utility-first CSS framework.
-Material-UI (MUI): A popular React UI framework.
-React Query: Data fetching and state management for React.
-TypeScript: A strongly typed programming language that builds on JavaScript.
-Learn More
+# Technologies Used
+
+- Next.js: A React framework for server-side rendering and static site generation.
+- GraphQL: A query language for your API.
+- TailwindCSS: A utility-first CSS framework.
+- Material-UI (MUI): A popular React UI framework.
+- React Query: Data fetching and state management for React.
+- TypeScript: A strongly typed programming language that builds on JavaScript.
+
+# Learn More
+
 To learn more about the technologies used in this project, take a look at the following resources:
 
-Next.js Documentation
-GraphQL Documentation
-TailwindCSS Documentation
-Material-UI Documentation
-React Query Documentation
-TypeScript Documentation
-Deploy on Vercel
-The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
+- Next.js Documentation
+- GraphQL Documentation
+- TailwindCSS Documentation
+- Material-UI Documentation
+- React Query Documentation
+- TypeScript Documentation
 
-Check out the Next.js deployment documentation for more details.
+# Contributing
 
-Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-License
+# License
+
 This project is licensed under the MIT License.
 
-This `README.md` file provides an overview of the project, installation instructions, environment variable setup, and information about the technologies used. It also includes links to relevant documentation for further learning.
 This `README.md` file provides an overview of the project, installation instructions, environment variable setup, and information about the technologies used. It also includes links to relevant documentation for further learning.
