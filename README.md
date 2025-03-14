@@ -1,40 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Mass Data Commerce Next.js Project
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app). The project uses GraphQL, TailwindCSS, Material-UI (MUI), and other modern web technologies.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
+Make sure you have the following installed:
+
+- Node.js (v14 or later)
+- npm (v6 or later) or yarn (v1.22 or later)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/mass_data_commerce_next_project_stefan_krstic.git
+   cd mass_data_commerce_next_project_stefan_krstic
+
+   ```
+
+2. Install dependencies:
+
+npm install
+
+# or
+
+yarn install
+
+Environment Variables
+Create a .env file in the root of your project and add the following environment variables:
+
+NEXT_PUBLIC_API_URL=http://localhost:3000/api/graphql
+
+Running the Development Server
+Start the development server:
+
 npm run dev
+
 # or
+
 yarn dev
+
 # or
+
 pnpm dev
+
 # or
+
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Building for Production
+To create an optimized production build:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+npm run build
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+# or
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+yarn build
 
-## Learn More
+Starting the Production Server
+After building the project, you can start the production server:
 
-To learn more about Next.js, take a look at the following resources:
+npm run start
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+# or
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+yarn start
 
-## Deploy on Vercel
+Project Structure
+components/: Contains React components used throughout the project.
+graphql/: Contains GraphQL queries, mutations, and generated types.
+lib/: Contains utility functions and API calls.
+pages/: Contains Next.js pages.
+public/: Contains static assets such as images.
+styles/: Contains global styles and TailwindCSS configuration.
+Technologies Used
+Next.js: A React framework for server-side rendering and static site generation.
+GraphQL: A query language for your API.
+TailwindCSS: A utility-first CSS framework.
+Material-UI (MUI): A popular React UI framework.
+React Query: Data fetching and state management for React.
+TypeScript: A strongly typed programming language that builds on JavaScript.
+Learn More
+To learn more about the technologies used in this project, take a look at the following resources:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Next.js Documentation
+GraphQL Documentation
+TailwindCSS Documentation
+Material-UI Documentation
+React Query Documentation
+TypeScript Documentation
+Deploy on Vercel
+The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Check out the Next.js deployment documentation for more details.
+
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+License
+This project is licensed under the MIT License.
+
+This `README.md` file provides an overview of the project, installation instructions, environment variable setup, and information about the technologies used. It also includes links to relevant documentation for further learning.
+This `README.md` file provides an overview of the project, installation instructions, environment variable setup, and information about the technologies used. It also includes links to relevant documentation for further learning.
